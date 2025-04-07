@@ -169,14 +169,8 @@ public class TournamentTests
         Assert.Equal(expected, RunTally(rows));
     }
 
-    private string RunTally(string input)
+    private static string RunTally(string input)
     {
-        var encoding = new UTF8Encoding();
-        using (var inStream = new MemoryStream(encoding.GetBytes(input)))
-        using (var outStream = new MemoryStream())
-        {
-            Tournament.Tally(inStream, outStream);
-            return encoding.GetString(outStream.ToArray());
-        }
+        return Tournament.Tally(input);
     }
 }

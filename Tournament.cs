@@ -3,7 +3,7 @@ using System.IO;
 
 public static class Tournament
 {   
-    public static void Tally(Stream inStream, Stream outStream)
+    public static string Tally(string input)
     {
         throw new NotImplementedException("You need to implement this method.");    
     }
