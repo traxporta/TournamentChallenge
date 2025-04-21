@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/llopez/Exercism/csharp/tournament/Tournament.csproj": {}
+    "/Users/llopez/TournamentChallenge/Tournament.csproj": {}
   },
   "projects": {
-    "/Users/llopez/Exercism/csharp/tournament/Tournament.csproj": {
+    "/Users/llopez/TournamentChallenge/Tournament.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/llopez/Exercism/csharp/tournament/Tournament.csproj",
+        "projectUniqueName": "/Users/llopez/TournamentChallenge/Tournament.csproj",
         "projectName": "Tournament",
-        "projectPath": "/Users/llopez/Exercism/csharp/tournament/Tournament.csproj",
+        "projectPath": "/Users/llopez/TournamentChallenge/Tournament.csproj",
         "packagesPath": "/Users/llopez/.nuget/packages/",
-        "outputPath": "/Users/llopez/Exercism/csharp/tournament/obj/",
+        "outputPath": "/Users/llopez/TournamentChallenge/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/llopez/.nuget/NuGet/NuGet.Config"
